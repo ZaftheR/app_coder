@@ -5,6 +5,25 @@ La casa del Codígo | Profesores
 {% endblock  %}
 
 {% block content %}
-<h1>Nuestros profesores</h1>
-<p>los mejores de latinoamerica</p>
+<section id="scroll">
+    <h1>Nuestros profesores</h1>
+    <p>los mejores de latinoamerica</p>
+    <div class="container">
+        <table class="table table-striped">
+          <thead>
+            <tr class="table-dark">
+              <th scope="col">Nombre</th>
+              <th scope="col">Materia</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for profesor in profesor%}
+            <tr class="table-warning">
+              <td>{{ profesor.nombre }}</td>
+              <td>{{ profesor.profesion}}</td>
+            </tr>
+            {%endfor%}
+          </tbody>
+        </table>
+      </div>
 {% endblock  %}
