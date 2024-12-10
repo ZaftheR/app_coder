@@ -21,7 +21,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 Clona el repositorio con los siguientes pasos:
 
 1-
-git clone https://github.com/tu-usuario/la-casa-del-codigo.git
+git clone https://github.com/ZaftheR/app_coder.git
 Navega al directorio del proyecto:
 
 2-
