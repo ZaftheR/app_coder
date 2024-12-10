@@ -1,7 +1,7 @@
 {% extends "AppCoder/base.html" %}
 
 {% block title %}
-La Casa del Cdigo | Formularios Cursos
+La Casa del Cdigo | Formularios Entregables
 {% endblock  %}
 
 
@@ -14,9 +14,9 @@ La Casa del Cdigo | Formularios Cursos
             <form action="" method="POST">
 
             {% csrf_token %}
-            {{ curso_form.as_p }}
+            {{ entregables_form.as_p }}
             
-            <button type="submit" class="btn btn-primary">Crear curso</button>
+            <button type="submit" class="btn btn-primary">Entrega</button>
         </div>
     </div>
 </div>
